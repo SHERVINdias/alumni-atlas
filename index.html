@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alumni Atlas</title>
+<style>
+ :root{--bg:#f7f8f8;--fg:#14201f;--muted:#55605f;--card:#fff;--line:#dfe4e3;--accent:#0f7b6c}
+ @media (prefers-color-scheme:dark){:root{--bg:#101719;--fg:#e7eeed;--muted:#9fb0ae;--card:#172124;--line:#26343a;--accent:#3cc2ac}}
+ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+ main{max-width:760px;margin:0 auto;padding:48px 16px}
+ h1{font-size:2.2rem;margin:0 0 8px}
+ .lead{color:var(--muted);font-size:1.15rem;margin:0 0 32px}
+ .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+ .card h2{font-size:1.05rem;margin:0 0 6px}
+ .card p{margin:0;color:var(--muted)}
+ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted)}
+ a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+ <h1>Alumni Atlas</h1>
+ <p class="lead">A Windows desktop app that helps college students and alumni find each other, join their college communities and stay in touch.</p>
+ <div class="grid">
+  <div class="card"><h2>Alumni map</h2><p>See where alumni from your college live and work.</p></div>
+  <div class="card"><h2>Communities</h2><p>Join official college communities or start a student community.</p></div>
+  <div class="card"><h2>Messages and events</h2><p>Chat in channels, message members directly and plan meetups.</p></div>
+  <div class="card"><h2>Sign in</h2><p>Sign in with LinkedIn or Google. One account per email.</p></div>
+ </div>
+ <footer>
+  <a href="privacy.html">Privacy policy</a> · <a href="https://github.com/SHERVINdias/alumni-atlas/issues">Contact</a>
+ </footer>
+</main>
+</body>
+</html>
